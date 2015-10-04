@@ -2,8 +2,8 @@
 #coding=utf-8
 import re,urllib,sys
 
-#每次中断请修改nothing，然后keep going~
-nothing="12345"
+#每次中断请修改nothing，然后keep going~（12345->16044->8022->82683->82682->63579)
+nothing="8022"
 base_url='http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing='
 url=base_url+nothing
 #print html
