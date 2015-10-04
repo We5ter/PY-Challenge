@@ -1,4 +1,7 @@
-import urllib,pickle
+#ï¼/bin/bash
+#coding=utf-8
+#next:channel.html
+import urllib,pickle
 url="http://www.pythonchallenge.com/pc/def/banner.p"
 html=urllib.urlopen(url).read()
 list = pickle.loads(html)  
@@ -7,4 +10,4 @@ output = open('output.txt', 'w')
 for line in list:    
     print >> output, ''.join([c[0]*c[1] for c in line])  
 output.close() 
-#output.txtÎªchanel×ÖÑù
+#output.txtä¸ºchannelå­—æ ·

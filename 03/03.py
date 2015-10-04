@@ -1,6 +1,6 @@
 #!/bin/bash
 #coding=utf-8
-
+#next:linkedlist.html->linkedlist.php
 import urllib,re
 url="http://www.pythonchallenge.com/pc/def/equality.html"
 html=urllib.urlopen(url).read()
