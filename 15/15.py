@@ -1,4 +1,6 @@
-import datetime,calendar
+#!/bin/bash
+#coding:utf-8
+import datetime,calendar
 
 for i in range(1006,1997,10):
     d=datetime.date(i,1,26)

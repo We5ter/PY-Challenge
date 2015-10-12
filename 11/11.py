@@ -1,4 +1,6 @@
-from PIL import Image
+#!/bin/bash
+#coding:utf-8
+from PIL import Image
 
 im=Image.open("cave.jpg")
 
