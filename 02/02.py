@@ -1,7 +1,6 @@
 #!/bin/bash
 #coding=utf-8
-#next:equality.html
-import urllib,re
+import urllib,re
 url="http://www.pythonchallenge.com/pc/def/ocr.html"
 html=urllib.urlopen(url).read()
 if not html:

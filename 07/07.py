@@ -26,3 +26,5 @@ message = []
 for i in range(3,608,7):
         message.append(chr(data[image.size[0]*50+i]))
 print ''.join(message)
+print "-------------------------------"
+print ''.join(map(chr,[105, 110, 116, 101, 103, 114, 105, 116, 121]))  

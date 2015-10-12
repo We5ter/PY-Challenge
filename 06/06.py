@@ -1,7 +1,6 @@
 #!/bin/bash
 #coding=utf-8
 #下载http://www.pythonchallenge.com/pc/def/channel.zip
-#输出hockey,访问hockey.html提示it's in the air,那就是oxygen.html 
 import re,zipfile
    
 number = "90052"
