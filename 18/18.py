@@ -1,8 +1,8 @@
 #!/bin/bash/python
 #coding=utf-8
 '''
-from PIL import Image
 #first try start
+from PIL import Image
 im=Image.open('balloons.jpg','wb')
 w,h=im.size
 diff=Image.new(im.mode,(w/2,h),0)

@@ -1,6 +1,7 @@
 #!/bin/bash
 #coding:utf-8
-from PIL import Image
+
+from PIL import Image
 
 im=Image.open("mozart.gif")
 
